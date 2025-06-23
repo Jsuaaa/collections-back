@@ -1,0 +1,10 @@
+spring:
+    application:
+        name: collections-back
+    security:
+        oauth2:
+            client:
+                registration:
+                    github:
+                        client-id: ${CLIENT}
+                        client-secret: ${SECRET}
